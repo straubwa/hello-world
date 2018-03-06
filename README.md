@@ -7,3 +7,7 @@ just another playground test repo
 
 ## common git commands to get used to
 * git log --oneline --graph
+* git checkout [branch name] (switches HEAD to the branch name)
+* git fetch (update local branch to match latest from server)
+* git merge [branch name] (merges changes from branch name to HEAD)
+* git branch -d [branch name] (deletes branch name if all changes have been merged)
