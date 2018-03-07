@@ -1,5 +1,5 @@
 # hello-world
-just another playground test repo
+Using this to keep track of common development commands / quickstarts / etc...
 
 ## markdown file syntax
 * [markdown intro](https://daringfireball.net/projects/markdown/)
@@ -21,3 +21,8 @@ just another playground test repo
   git clean -fdx (these three commands will remove any uncommited changes in the current branch - basically an undo)
 * git mv [current path]/* ./[new path] -k (moves files from current path to new path and stages all changes)
 * git add -A (stages all changes - new/changed/deleted)
+
+
+## node.js / npm
+* [node](https://nodejs.org/en/)
+* [npm](https://www.npmjs.com/)
