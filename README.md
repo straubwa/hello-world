@@ -20,4 +20,4 @@ just another playground test repo
   git checkout .   
   git clean -fdx (these three commands will remove any uncommited changes in the current branch - basically an undo)
 * git mv [current path]/* ./[new path] -k (moves files from current path to new path and stages all changes)
-* git add -A (stages All changes new/change/delete)
+* git add -A (stages all changes - new/changed/deleted)
