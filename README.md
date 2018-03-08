@@ -24,7 +24,15 @@ Using this to keep track of common development commands / quickstarts / etc...
 * git add -A (stages all changes - new/changed/deleted)
 * git config -l (lists all config key value pairs)
 * git config --global [key.name] [value] (create/edits key value pair, key tends to have a ".", ex. user.name, global is scoped to user on this machine)
+<<<<<<< HEAD
 
+=======
+* git status (lists what has been staged, changed, new/delete)
+* git add -A (moves all changed files to staged)
+* git reset (moves all staged files to changed)
+* git commit -m "[commit message]" (commits staged changes locally)
+* git commit -am "[commit message]" (adds changed to stage and commits locally)
+>>>>>>> more git commands
 
 ## node.js / npm
 * [node](https://nodejs.org/en/)
