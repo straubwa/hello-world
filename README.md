@@ -29,6 +29,9 @@ Using this to keep track of common development commands / quickstarts / etc...
 * git reset (moves all staged files to changed)
 * git commit -m "[commit message]" (commits staged changes locally)
 * git commit -am "[commit message]" (adds changed to stage and commits locally)
+* git add -u (stages all updated changes)
+* git commit -m [commit message] (commits changes locally with the commit message)
+
 
 ## node.js / npm
 * [node](https://nodejs.org/en/)
