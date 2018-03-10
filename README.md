@@ -6,7 +6,8 @@ Using this to keep track of common development commands / quickstarts / etc...
 * [markdown command cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * to add multi lines to a bullet list, add 2 trailing spaces to the first line
 
-## git commands
+## git 
+### commands
 * git log --oneline --graph
 * git checkout [branch name] (switches HEAD to the branch name)
 * git fetch (update local branch to match latest from server, but does not move local branches)
@@ -31,6 +32,12 @@ Using this to keep track of common development commands / quickstarts / etc...
 * git commit -am "[commit message]" (adds changed to stage and commits locally)
 * git add -u (stages all updated changes)
 
+### setup / config
+* need to setup user.name and user.email on machine in order to do a commit
+* to have commits show up on github as "verified" need to sign commits with GPG
+  * [github howto setup signing commits](https://help.github.com/articles/signing-commits-with-gpg/)
+  * [step by step setup](https://medium.com/@timmywil/sign-your-commits-on-github-with-gpg-566f07762a43)
+  * i haven't done this yet, i may in the future...
 
 ## node.js / npm
 * [node](https://nodejs.org/en/)
