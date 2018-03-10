@@ -21,6 +21,8 @@ Using this to keep track of common development commands / quickstarts / etc...
   git clean -fdx (these three commands will remove any uncommited changes in the current branch - basically an undo)
 * git mv [current path]/* ./[new path] -k (moves files from current path to new path and stages all changes)
 * git add -A (stages all changes - new/changed/deleted)
+* git add -u (stages all updated changes)
+* git commit -m [commit message] (commits changes locally with the commit message)
 
 
 ## node.js / npm
