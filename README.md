@@ -34,10 +34,24 @@ Using this to keep track of common development commands / quickstarts / etc...
 
 ### setup / config
 * need to setup user.name and user.email on machine in order to do a commit
-* to have commits show up on github as "verified" need to sign commits with GPG
+* verified commits on gitgub
+  * to have commits show up on github as "verified" need to sign commits with GPG
+    * otherwise you can have commits from what looks like anybody you like just by setting user.name and user.email
   * [github howto setup signing commits](https://help.github.com/articles/signing-commits-with-gpg/)
-  * [step by step setup](https://medium.com/@timmywil/sign-your-commits-on-github-with-gpg-566f07762a43)
-  * i haven't done this yet, i may in the future...
+  * [step by step setup](https://jamesmckay.net/2016/02/signing-git-commits-with-gpg-on-windows/)
+    * install [gpg4win](https://www.gpg4win.org)
+    * create key in Kleopatra
+    * run git commands  
+      git config --global user.signingkey [Key-ID]  
+      git config --global commit.gpgsign true  
+      git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
+    * follow steps on [adding new GPG key to Github](https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/)
+* initial push of a repo to new github repo
+  * create github repo
+  * git remote add origin [github repo url]
+  * git remote -v (verifies url)
+  * git push origin master
+* [github add license file](https://help.github.com/articles/adding-a-license-to-a-repository/)
 
 ## node.js / npm
 * [node](https://nodejs.org/en/)
