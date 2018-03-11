@@ -11,6 +11,7 @@ Using this to keep track of common development commands / quickstarts / etc...
 * git log --oneline --graph
 * git checkout [branch name] (switches HEAD to the branch name)
 * git fetch (update local branch to match latest from server, but does not move local branches)
+* git log --oneline --graph origin/[branch name] (run this after a fetch to see list of changes to merge)
 * git pull (does a fetch plus merge)
 * git merge [branch name] (merges changes from branch name to HEAD)
 * git branch -a (lists all remote and local branches)
