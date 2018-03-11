@@ -65,7 +65,8 @@ Using this to keep track of common development commands / quickstarts / etc...
 * npm ls (lists all packages in a tree view)
 * npm i (downloads all modules listed in project.json file to node_modules folder)
 * npm outdated (lists all modules that have a newer version than what referenced in packages.json file)
-* npm update (updates all modules to the latest version as shown in outdated)
+* npm update (updates all modules to the "Wanted" version as shown in outdated - not necessarily the latest)
+* npm install [module]@latest --save (this will update packages.json to latest version and install to node_modules)
 * npm prune (finds all modules in node_modules that are not listed in packages.json file)
 
 ## angular cli
