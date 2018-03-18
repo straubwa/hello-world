@@ -10,7 +10,8 @@ Using this to keep track of common development commands / quickstarts / etc...
 ### commands
 * git log --oneline --graph
 * git clone [url] [folder name] (creates local copy of existing repo at url in a subfolder of the current path, folder name is optional - if not used, will take the name of the repo as the folder name)
-* git remote add origin [url] (associate a local repo with the url, ex. github)
+* git remote add origin [url]  
+  git push --set-upstream origin master (associate a local repo with blank repo at the url, ex. github, and push commits to the url)
 * git checkout [branch name] (switches HEAD to the branch name)
 * git fetch (update local branch to match latest from server, but does not move local branches)
 * git log --oneline --graph origin/[branch name] (run this after a fetch to see list of changes to merge)
