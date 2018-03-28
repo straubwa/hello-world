@@ -71,3 +71,5 @@
 * [end] (brings out outside of brackets you are in)
 * [ctrl]+[c] (ends an "ng serve" session and returns a prompt in the terminal window)
 
+## other
+* [quicktype - generate code from JSON](https://app.quicktype.io/#l=cs&r=json2csharp) online tool to convert json to classes in c#, javascript, typescript, etc...
