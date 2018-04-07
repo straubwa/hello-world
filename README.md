@@ -9,7 +9,6 @@
 * git log --oneline --graph origin/[branch name] (run this after a fetch to see list of changes to merge)
 * git clone [url] [folder name] (creates local copy of existing repo at url in a subfolder of the current path, folder name is optional - if not used, will take the name of the repo as the folder name)
 * git remote add origin [url]  
-  git push --set-upstream origin master (associate a local repo with blank repo at the url, ex. github, and push commits to the url)
 * git checkout [branch name] (switches HEAD to the branch name)
 * git checkout -b [branch name] (creates a new branch and switches HEAD to the branch name)
 * git fetch (update local branch to match latest from server, but does not move local branches)
@@ -20,6 +19,7 @@
 * git push (pushes changes to github for current branch, use --all for multiple branches)
 * git push origin :[branch name] (deletes a remote branch that was deleted locally first and tracked)
 * git push -u origin [branch name] (pushes local branch to create a new remote branch with same name and makes local trackable)
+  git push --set-upstream origin master (associate a local repo with blank repo at the url, ex. github, and push commits to the url)
 * git reset  
   git checkout .   
   git clean -fdx (these three commands will remove any uncommited changes in the current branch - basically an undo)
