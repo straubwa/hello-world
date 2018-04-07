@@ -6,12 +6,13 @@
 ## git 
 ### commands
 * git log --oneline --graph
+* git log --oneline --graph origin/[branch name] (run this after a fetch to see list of changes to merge)
 * git clone [url] [folder name] (creates local copy of existing repo at url in a subfolder of the current path, folder name is optional - if not used, will take the name of the repo as the folder name)
 * git remote add origin [url]  
   git push --set-upstream origin master (associate a local repo with blank repo at the url, ex. github, and push commits to the url)
 * git checkout [branch name] (switches HEAD to the branch name)
+* git checkout -b [branch name] (creates a new branch and switches HEAD to the branch name)
 * git fetch (update local branch to match latest from server, but does not move local branches)
-* git log --oneline --graph origin/[branch name] (run this after a fetch to see list of changes to merge)
 * git pull (does a fetch plus merge)
 * git merge [branch name] (merges changes from branch name to HEAD)
 * git branch -a (lists all remote and local branches)
@@ -36,6 +37,7 @@
 
 ### git aliases
 * lga = "log --oneline --graph"
+* you can append info after an alias, ex. "git lga origin/[branch name]" will run "git log --oneline --graph origin/[branch name]"
 
 ### setup / config
 * need to setup user.name and user.email on machine in order to do a commit
