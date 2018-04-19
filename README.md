@@ -12,6 +12,7 @@
 * git checkout [branch name] (switches HEAD to the branch name)
 * git checkout -b [branch name] (creates a new branch and switches HEAD to the branch name)
 * git fetch (update local branch to match latest from server, but does not move local branches)
+* git fetch -p (removes remote branches that no longer exist on remote)
 * git pull (does a fetch plus merge)
 * git merge [branch name] (merges changes from branch name to HEAD)
 * git branch -a (lists all remote and local branches)
