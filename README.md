@@ -66,7 +66,8 @@
 * [npm](https://www.npmjs.com/)
 * [simple getting started with npm](http://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
 * npm list -g --depth=0 (lists globally installed NPM packages and version)
-* npm install npm@latest -g (to globally update of the version of npm on your machine, instead of "npm i npm" which installs the latest version within the directory that it is run from)* npm ls (lists all packages in a tree view)
+* npm install npm@latest -g (to globally update of the version of npm on your machine, instead of "npm i npm" which installs the latest version within the directory that it is run from)
+* npm ls (lists all packages in a tree view)
 * npm i (downloads all modules listed in project.json file to node_modules folder)
 * npm outdated (lists all modules that have a newer version than what referenced in packages.json file)
 * npm update (updates all modules to the "Wanted" version as shown in outdated - not necessarily the latest)
@@ -76,6 +77,7 @@
 ## angular cli
 * ng new [app name] (creates a new angular web app)
 * ng serve (starts up the web app to run on localhost:4200)
+* ng g component [path]/[component name] --flat=true (creates component files in the folder path stated - format [component name].component.html/spec.ts/ts/css)
 
 ## vscode
 * [end] (brings out outside of brackets you are in)
