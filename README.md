@@ -20,7 +20,7 @@
 * git push (pushes changes to github for current branch, use --all for multiple branches)
 * git push origin :[branch name] (deletes a remote branch that was deleted locally first and tracked)
 * git push -u origin [branch name] (pushes local branch to create a new remote branch with same name and makes local trackable)
-  git push --set-upstream origin master (associate a local repo with blank repo at the url, ex. github, and push commits to the url)
+* git push --set-upstream origin master (associate a local repo with blank repo at the url, ex. github, and push commits to the url)
 * git reset  
   git checkout .   
   git clean -fdx (these three commands will remove any uncommited changes in the current branch - basically an undo)
@@ -82,6 +82,20 @@
 ## vscode
 * [end] (brings out outside of brackets you are in)
 * [ctrl]+[c] (ends an "ng serve" session and returns a prompt in the terminal window)
+
+## docker
+* docker-machine ip (shows ip of vm that docker resides in)
+* docker-machine env (display docker client setup commands)
+* docker version (displays info about the version and OS)
+* docker info (see what is happening on a docker machine)
+* docker pull [image name] (downloads docker image from dockerhub)
+* docker images (lists all images downloaded to machine)
+* docker ps -a (lists all containers and state on a machine)
+* docker run -d -p [external ip]:[ip in container] [image name] (starts up a container for the passed image, if a sha256 is not returned, something is not right)
+* docker stop [container id | name] (stops a container from running)
+* docker rmi [image name]:[version] (remove a docker image from the local store)
+
+* more info can be found at [Dan Wahlin's useful commands](https://github.com/DanWahlin/Angular-RESTfulService/blob/master/.docker/useful-commands.md)
 
 ## other
 * [quicktype - generate code from JSON](https://app.quicktype.io/#l=cs&r=json2csharp) online tool to convert json to classes in c#, javascript, typescript, etc...
