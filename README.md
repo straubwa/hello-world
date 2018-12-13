@@ -20,7 +20,7 @@
 * git push (pushes changes to github for current branch, use --all for multiple branches)
 * git push origin :[branch name] (deletes a remote branch that was deleted locally first and tracked)
 * git push -u origin [branch name] (pushes local branch to create a new remote branch with same name and makes local trackable)
-  git push --set-upstream origin master (associate a local repo with blank repo at the url, ex. github, and push commits to the url)
+* git push --set-upstream origin master (associate a local repo with blank repo at the url, ex. github, and push commits to the url)
 * git reset  
   git checkout .   
   git clean -fdx (these three commands will remove any uncommited changes in the current branch - basically an undo)
