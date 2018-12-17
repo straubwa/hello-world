@@ -9,7 +9,7 @@
 * git log --oneline --graph origin/[branch name] (run this after a fetch to see list of changes to merge)
 * git clone [url] [folder name] (creates local copy of existing repo at url in a subfolder of the current path, folder name is optional - if not used, will take the name of the repo as the folder name)
 * git remote add origin [url]  
-* git checkout [branch name] (switches HEAD to the branch name)
+* git checkout [branch name] (switches HEAD to the branch name.  this is the way to switch between existing branches)
 * git checkout -b [branch name] (creates a new branch and switches HEAD to the branch name)
 * git fetch (update local branch to match latest from server, but does not move local branches)
 * git fetch -p (removes remote branches that no longer exist on remote)
@@ -66,12 +66,16 @@
 * [npm](https://www.npmjs.com/)
 * [simple getting started with npm](http://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
 * npm list -g --depth=0 (lists globally installed NPM packages and version)
-* npm install npm@latest -g (to globally update of the version of npm on your machine, instead of "npm i npm" which installs the latest version within the directory that it is run from)* npm ls (lists all packages in a tree view)
+* npm ls (lists all packages in a tree view)
+* npm install npm@latest -g (to globally update of the version of npm on your machine, instead of "npm i npm" which installs the latest version within the directory that it is run from)
+* npm install [module]@latest --save (this will update package.json to latest version and install to node_modules)
+* npm show [module]@* version (to list all the versions of the module available)
+* npm uninstall [module] --save (removes from package.json and uninstalls from node_modules )
 * npm i (downloads all modules listed in project.json file to node_modules folder)
 * npm outdated (lists all modules that have a newer version than what referenced in packages.json file)
 * npm update (updates all modules to the "Wanted" version as shown in outdated - not necessarily the latest)
-* npm install [module]@latest --save (this will update packages.json to latest version and install to node_modules)
 * npm prune (finds all modules in node_modules that are not listed in packages.json file)
+* npm audit (reviews all packages for known security vulnerabilities)
 
 ## angular cli
 * ng new [app name] (creates a new angular web app)
