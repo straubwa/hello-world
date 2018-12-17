@@ -20,7 +20,7 @@
 * git push (pushes changes to github for current branch, use --all for multiple branches)
 * git push origin :[branch name] (deletes a remote branch that was deleted locally first and tracked)
 * git push -u origin [branch name] (pushes local branch to create a new remote branch with same name and makes local trackable)
-  git push --set-upstream origin master (associate a local repo with blank repo at the url, ex. github, and push commits to the url)
+* git push --set-upstream origin master (associate a local repo with blank repo at the url, ex. github, and push commits to the url)
 * git reset  
   git checkout .   
   git clean -fdx (these three commands will remove any uncommited changes in the current branch - basically an undo)
@@ -66,11 +66,8 @@
 * [npm](https://www.npmjs.com/)
 * [simple getting started with npm](http://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
 * npm list -g --depth=0 (lists globally installed NPM packages and version)
-* npm ls (lists all packages in a tree view)
 * npm install npm@latest -g (to globally update of the version of npm on your machine, instead of "npm i npm" which installs the latest version within the directory that it is run from)
-* npm install [module]@latest --save (this will update package.json to latest version and install to node_modules)
-* npm show [module]@* version (to list all the versions of the module available)
-* npm uninstall [module] --save (removes from package.json and uninstalls from node_modules )
+* npm ls (lists all packages in a tree view)
 * npm i (downloads all modules listed in project.json file to node_modules folder)
 * npm outdated (lists all modules that have a newer version than what referenced in packages.json file)
 * npm update (updates all modules to the "Wanted" version as shown in outdated - not necessarily the latest)
@@ -80,6 +77,7 @@
 ## angular cli
 * ng new [app name] (creates a new angular web app)
 * ng serve (starts up the web app to run on localhost:4200)
+* ng g component [path]/[component name] --flat=true (creates component files in the folder path stated - format [component name].component.html/spec.ts/ts/css)
 
 ## vscode
 * [end] (brings out outside of brackets you are in)
